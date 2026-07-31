@@ -1,175 +1,175 @@
 # Awesome AI Video Editing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
-  <img src="docs/assets/social-preview.png" alt="Awesome AI Video Editing — agent-native video production tools" width="800">
+  <img src="docs/assets/social-preview.png" alt="Awesome AI Video Editing, agent-native video production tools" width="800">
 </p>
 
-> A curated list of **AI-powered video editing & production tools** for developers and creators — with a unique focus on the 2026 wave of **agent-native tooling**: Claude Code skills, MCP servers, and CLI-first pipelines that let a coding agent direct the whole production.
+> A curated list of **AI-powered video editing & production tools** for developers and creators, with a unique focus on the 2026 wave of **agent-native tooling**: Claude Code skills, MCP servers, and CLI-first pipelines that let a coding agent direct the whole production.
 
 ⭐ Star counts harvested live on **2026-06-12** (GitHub API). PRs welcome.
 
-**The 2026 meta-shift:** new video tools no longer ship as apps — they ship as **agent skills and MCP servers**. The fastest-growing repos of the last 90 days (OpenMontage, ArcReel, html-video, Generative-Media-Skills, waoowaoo, Toonflow) are all agent-first. Premium differentiation moved from model quality to **orchestration + cross-shot consistency**.
+**The 2026 meta-shift:** new video tools no longer ship as apps, they ship as **agent skills and MCP servers**. The fastest-growing repos of the last 90 days (OpenMontage, ArcReel, html-video, Generative-Media-Skills, waoowaoo, Toonflow) are all agent-first. Premium differentiation moved from model quality to **orchestration + cross-shot consistency**.
 
 ## Contents
 
-- [🏆 Agent-Native — Claude Code / MCP / CLI](#-agent-native--claude-code--mcp--cli)
-- [🎬 Agentic Video Production Platforms](#-agentic-video-production-platforms)
-- [🧠 Video Generation Models & Inference](#-video-generation-models--inference)
-- [🧩 ComfyUI Video Ecosystem](#-comfyui-video-ecosystem)
-- [💻 Programmatic Video (Code IS the Video)](#-programmatic-video-code-is-the-video)
-- [✂️ Editors — AI-Augmented, Browser & Classic](#️-editors--ai-augmented-browser--classic)
-- [🎚️ DaVinci Resolve Stack](#️-davinci-resolve-stack)
-- [🗣️ Avatars, Talking Heads & Face Tools](#️-avatars-talking-heads--face-tools)
-- [🔊 Audio, Voice & Music for Video](#-audio-voice--music-for-video)
-- [🔧 Enhance, Upscale & Finish](#-enhance-upscale--finish)
-- [🚀 Reference Pipeline: Claude Code as Director](#-reference-pipeline-claude-code-as-director)
+- [Agent-Native, Claude Code / MCP / CLI](#agent-native-claude-code--mcp--cli)
+- [Agentic Video Production Platforms](#agentic-video-production-platforms)
+- [Video Generation Models & Inference](#video-generation-models--inference)
+- [ComfyUI Video Ecosystem](#comfyui-video-ecosystem)
+- [Programmatic Video (Code IS the Video)](#programmatic-video-code-is-the-video)
+- [Editors, AI-Augmented, Browser & Classic](#editors-ai-augmented-browser--classic)
+- [DaVinci Resolve Stack](#davinci-resolve-stack)
+- [Avatars, Talking Heads & Face Tools](#avatars-talking-heads--face-tools)
+- [Audio, Voice & Music for Video](#audio-voice--music-for-video)
+- [Enhance, Upscale & Finish](#enhance-upscale--finish)
+- [Reference Pipeline: Claude Code as Director](#reference-pipeline-claude-code-as-director)
 - [Contributing](#contributing)
 
-## 🏆 Agent-Native — Claude Code / MCP / CLI
+## Agent-Native: Claude Code / MCP / CLI
 
 The category that didn't exist a year ago: video production exposed as agent skills.
 
-- [OpenMontage](https://github.com/calesthio/OpenMontage) ⭐4.7k — First open agentic video production system: 12 pipelines, 52 tools, 500+ agent skills. Your coding agent becomes the director. AGPL.
-- [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) ⭐3.5k — Multi-modal media skills (image/video/audio) for Claude Code, Cursor & Gemini CLI.
-- [html-video](https://github.com/nexu-io/html-video) ⭐2.9k — Programmatic video for coding agents: HTML/CSS + data → real MP4s, locally.
-- [FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) ⭐2.9k — AI video editing agent — intention-driven directing via MCP + skills.
-- [ArcReel](https://github.com/ArcReel/ArcReel) ⭐2.6k — Video workspace built on claude-agent-sdk: novel → characters → storyboard → video with cross-shot consistency.
-- [MiniMax-MCP](https://github.com/MiniMax-AI/MiniMax-MCP) ⭐1.5k — Official MCP server: TTS, image and video generation APIs.
-- [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) ⭐1.4k — AI-native video production toolkit built specifically for Claude Code (ElevenLabs integration).
-- [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) ⭐1.2k — Drive DaVinci Resolve Studio from your agent: timeline, cuts, color.
-- [short-video-maker](https://github.com/gyoridavid/short-video-maker) ⭐1.2k — TikTok / Reels / Shorts generation via MCP + REST API.
-- [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server) ⭐1.1k — Douyin video ingest (watermark-free links + transcripts) as Claude skill/MCP.
-- [muapi-cli](https://github.com/SamurAIGPT/muapi-cli) ⭐1.0k — Terminal CLI + MCP server for 14 generative models (image/video/audio).
-- [vargHQ/sdk](https://github.com/vargHQ/sdk) ⭐0.3k — "JSX for videos": one TypeScript API for Kling, Flux, ElevenLabs, Veed. Built on Vercel AI SDK.
-- [yt-dlp-mcp](https://github.com/kevinwatt/yt-dlp-mcp) ⭐0.2k — Bridge video/audio content to LLMs via yt-dlp.
-- [comfyui-mcp](https://github.com/artokun/comfyui-mcp) ⭐0.1k — Claude Code plugin + MCP for ComfyUI: 88 tools, 14 skills (Flux, WAN, LTX-Video, Qwen), live graph editing.
-- [ffmpeg-mcp](https://github.com/video-creator/ffmpeg-mcp) ⭐0.1k — Local video editing through conversation: FFmpeg as an MCP server.
-- [hve-spielberg](https://github.com/nebrass/hve-spielberg) ⭐0.1k — 6-phase video production pipeline for Claude Code, design thinking → final render.
-- [mcptube](https://github.com/0xchamin/mcptube) ⭐0.1k — Turn YouTube into a compounding knowledge base (transcripts + vision) for Claude/Codex/Gemini.
-- [claude-skills (video)](https://github.com/jianshuo/claude-skills) ⭐82 — 13 Claude Code skills: transcribe / translate / dub / multicam / subtitles / reframe.
-- [ComfyUI-Expert](https://github.com/MCKRUZ/ComfyUI-Expert) ⭐72 — Session-scoped Claude Code agent for ComfyUI video production (12 skills).
-- [remotion-transitions](https://github.com/Ashad001/remotion-transitions) ⭐63 — Production-ready Remotion transition patterns with Claude Code skills.
-- [remotion-superpowers](https://github.com/DojoCodingLabs/remotion-superpowers) ⭐43 — Claude Code plugin: a full video production studio for Remotion (AI voiceovers, music, stock, gen).
-- [SwiftClip](https://github.com/zz41354899/SwiftClip) ⭐34 — Remotion templates + Claude Code workflow for storyboard-driven video.
-- [audiovisual-production-skills](https://github.com/rheadsh/audiovisual-production-skills) ⭐27 — Claude Code skills for TouchDesigner & real-time graphics.
-- [spark-video](https://github.com/JohnKeating1997/spark-video) ⭐25 — Skill: premise → screenplay → storyboard → render → review → final mp4, with consistent characters.
-- [video-research-mcp](https://github.com/Galbaz1/video-research-mcp) ⭐21 — 51 research/analysis/media tools for Claude Code, including video analysis.
-- [saas-product-demo-video](https://github.com/noamdorr/saas-product-demo-video) ⭐17 — Skill for shipping a 20–45s SaaS demo video in Remotion.
+- [OpenMontage](https://github.com/calesthio/OpenMontage) ⭐4.7k, First open agentic video production system: 12 pipelines, 52 tools, 500+ agent skills. Your coding agent becomes the director. AGPL.
+- [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) ⭐3.5k, Multi-modal media skills (image/video/audio) for Claude Code, Cursor & Gemini CLI.
+- [html-video](https://github.com/nexu-io/html-video) ⭐2.9k, Programmatic video for coding agents: HTML/CSS + data → real MP4s, locally.
+- [FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) ⭐2.9k, AI video editing agent, intention-driven directing via MCP + skills.
+- [ArcReel](https://github.com/ArcReel/ArcReel) ⭐2.6k, Video workspace built on claude-agent-sdk: novel → characters → storyboard → video with cross-shot consistency.
+- [MiniMax-MCP](https://github.com/MiniMax-AI/MiniMax-MCP) ⭐1.5k, Official MCP server: TTS, image and video generation APIs.
+- [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) ⭐1.4k, AI-native video production toolkit built specifically for Claude Code (ElevenLabs integration).
+- [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) ⭐1.2k, Drive DaVinci Resolve Studio from your agent: timeline, cuts, color.
+- [short-video-maker](https://github.com/gyoridavid/short-video-maker) ⭐1.2k, TikTok / Reels / Shorts generation via MCP + REST API.
+- [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server) ⭐1.1k, Douyin video ingest (watermark-free links + transcripts) as Claude skill/MCP.
+- [muapi-cli](https://github.com/SamurAIGPT/muapi-cli) ⭐1.0k, Terminal CLI + MCP server for 14 generative models (image/video/audio).
+- [vargHQ/sdk](https://github.com/vargHQ/sdk) ⭐0.3k, "JSX for videos": one TypeScript API for Kling, Flux, ElevenLabs, Veed. Built on Vercel AI SDK.
+- [yt-dlp-mcp](https://github.com/kevinwatt/yt-dlp-mcp) ⭐0.2k, Bridge video/audio content to LLMs via yt-dlp.
+- [comfyui-mcp](https://github.com/artokun/comfyui-mcp) ⭐0.1k, Claude Code plugin + MCP for ComfyUI: 88 tools, 14 skills (Flux, WAN, LTX-Video, Qwen), live graph editing.
+- [ffmpeg-mcp](https://github.com/video-creator/ffmpeg-mcp) ⭐0.1k, Local video editing through conversation: FFmpeg as an MCP server.
+- [hve-spielberg](https://github.com/nebrass/hve-spielberg) ⭐0.1k, 6-phase video production pipeline for Claude Code, design thinking → final render.
+- [mcptube](https://github.com/0xchamin/mcptube) ⭐0.1k, Turn YouTube into a compounding knowledge base (transcripts + vision) for Claude/Codex/Gemini.
+- [claude-skills (video)](https://github.com/jianshuo/claude-skills) ⭐82, 13 Claude Code skills: transcribe / translate / dub / multicam / subtitles / reframe.
+- [ComfyUI-Expert](https://github.com/MCKRUZ/ComfyUI-Expert) ⭐72, Session-scoped Claude Code agent for ComfyUI video production (12 skills).
+- [remotion-transitions](https://github.com/Ashad001/remotion-transitions) ⭐63, Production-ready Remotion transition patterns with Claude Code skills.
+- [remotion-superpowers](https://github.com/DojoCodingLabs/remotion-superpowers) ⭐43, Claude Code plugin: a full video production studio for Remotion (AI voiceovers, music, stock, gen).
+- [SwiftClip](https://github.com/zz41354899/SwiftClip) ⭐34, Remotion templates + Claude Code workflow for storyboard-driven video.
+- [audiovisual-production-skills](https://github.com/rheadsh/audiovisual-production-skills) ⭐27, Claude Code skills for TouchDesigner & real-time graphics.
+- [spark-video](https://github.com/JohnKeating1997/spark-video) ⭐25, Skill: premise → screenplay → storyboard → render → review → final mp4, with consistent characters.
+- [video-research-mcp](https://github.com/Galbaz1/video-research-mcp) ⭐21, 51 research/analysis/media tools for Claude Code, including video analysis.
+- [saas-product-demo-video](https://github.com/noamdorr/saas-product-demo-video) ⭐17, Skill for shipping a 20–45s SaaS demo video in Remotion.
 
-## 🎬 Agentic Video Production Platforms
+## Agentic Video Production Platforms
 
-- [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐80.8k — One-click AI short videos; the reference classic.
-- [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) ⭐22.1k — Fully automated short-video engine (ComfyUI + TTS).
-- [waoowaoo](https://github.com/waooAI/waoowaoo) ⭐12.7k — Industrial-grade AI film & video production platform, from shorts to features.
-- [Toonflow](https://github.com/HBAI-Ltd/Toonflow-app) ⭐10.0k — Novel/script → animated short drama: AI screenwriting, storyboards, character + video gen.
-- [ViMax](https://github.com/HKUDS/ViMax) ⭐9.8k — Agentic video generation: director, screenwriter, producer and generator all-in-one.
-- [ShortGPT](https://github.com/RayVentura/ShortGPT) ⭐7.4k — Framework for automated shorts/TikTok channels.
-- [FunClip](https://github.com/modelscope/FunClip) ⭐5.8k — Accurate speech recognition + LLM-based clipping by transcript.
-- [autoclip](https://github.com/zhouxiaoka/autoclip) ⭐5.6k — AI highlight extraction & re-editing.
-- [AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) ⭐3.9k — Long-form YouTube → viral 9:16 shorts (open Opus Clip alternative).
-- [brainrot.js](https://github.com/noahgsolomon/brainrot.js) ⭐1.0k — Text → video, brainrot style (Remotion).
-- [podcast-maker](https://github.com/FelippeChemello/podcast-maker) ⭐0.7k — Newsletters → daily videos, fully automated.
+- [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐80.8k, One-click AI short videos; the reference classic.
+- [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) ⭐22.1k, Fully automated short-video engine (ComfyUI + TTS).
+- [waoowaoo](https://github.com/waooAI/waoowaoo) ⭐12.7k, Industrial-grade AI film & video production platform, from shorts to features.
+- [Toonflow](https://github.com/HBAI-Ltd/Toonflow-app) ⭐10.0k, Novel/script → animated short drama: AI screenwriting, storyboards, character + video gen.
+- [ViMax](https://github.com/HKUDS/ViMax) ⭐9.8k, Agentic video generation: director, screenwriter, producer and generator all-in-one.
+- [ShortGPT](https://github.com/RayVentura/ShortGPT) ⭐7.4k, Framework for automated shorts/TikTok channels.
+- [FunClip](https://github.com/modelscope/FunClip) ⭐5.8k, Accurate speech recognition + LLM-based clipping by transcript.
+- [autoclip](https://github.com/zhouxiaoka/autoclip) ⭐5.6k, AI highlight extraction & re-editing.
+- [AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) ⭐3.9k, Long-form YouTube → viral 9:16 shorts (open Opus Clip alternative).
+- [brainrot.js](https://github.com/noahgsolomon/brainrot.js) ⭐1.0k, Text → video, brainrot style (Remotion).
+- [podcast-maker](https://github.com/FelippeChemello/podcast-maker) ⭐0.7k, Newsletters → daily videos, fully automated.
 
-## 🧠 Video Generation Models & Inference
+## Video Generation Models & Inference
 
-- [Wan2.2](https://github.com/Wan-Video/Wan2.2) ⭐16.1k — Leading open video diffusion (Alibaba).
-- [CogVideo](https://github.com/zai-org/CogVideo) ⭐12.8k — Text-to-video family.
-- [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) ⭐12.2k — Tencent's video generation.
-- [LTX-Video](https://github.com/Lightricks/LTX-Video) ⭐10.4k — Near-real-time video diffusion.
-- [Sana](https://github.com/NVlabs/Sana) ⭐8.2k — NVIDIA linear diffusion transformer.
-- [Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) ⭐5.7k — The research radar for video diffusion.
-- [vllm-omni](https://github.com/vllm-project/vllm-omni) ⭐5.1k — Omni-modality model serving (video/audio/image from one stack).
-- [lingbot-world](https://github.com/Robbyant/lingbot-world) ⭐3.9k — Open world models (image-to-video).
-- [VACE](https://github.com/ali-vilab/VACE) ⭐3.8k — All-in-one video creation **and editing** (reference for video inpainting).
-- [FastVideo](https://github.com/hao-ai-lab/FastVideo) ⭐3.7k — Unified inference + post-training framework for accelerated video gen.
-- [LightX2V](https://github.com/ModelTC/LightX2V) ⭐2.4k — Lightweight X2V inference framework.
-- [LongLive 2.0](https://github.com/NVlabs/LongLive) ⭐2.3k — NVIDIA long-video generation infra, real-time.
-- [Helios](https://github.com/PKU-YuanGroup/Helios) ⭐1.9k — Real-time long video generation.
-- API-only frontier (drive from CLI via muapi-cli / vargHQ sdk / MiniMax-MCP): **Veo 3.x, Kling 2.x, Seedance 2.0** — see [awesome-seedance-prompts](https://github.com/saber007104/awesome-seedance-prompts) for prompt patterns.
+- [Wan2.2](https://github.com/Wan-Video/Wan2.2) ⭐16.1k, Leading open video diffusion (Alibaba).
+- [CogVideo](https://github.com/zai-org/CogVideo) ⭐12.8k, Text-to-video family.
+- [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) ⭐12.2k, Tencent's video generation.
+- [LTX-Video](https://github.com/Lightricks/LTX-Video) ⭐10.4k, Near-real-time video diffusion.
+- [Sana](https://github.com/NVlabs/Sana) ⭐8.2k, NVIDIA linear diffusion transformer.
+- [Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) ⭐5.7k, The research radar for video diffusion.
+- [vllm-omni](https://github.com/vllm-project/vllm-omni) ⭐5.1k, Omni-modality model serving (video/audio/image from one stack).
+- [lingbot-world](https://github.com/Robbyant/lingbot-world) ⭐3.9k, Open world models (image-to-video).
+- [VACE](https://github.com/ali-vilab/VACE) ⭐3.8k, All-in-one video creation **and editing** (reference for video inpainting).
+- [FastVideo](https://github.com/hao-ai-lab/FastVideo) ⭐3.7k, Unified inference + post-training framework for accelerated video gen.
+- [LightX2V](https://github.com/ModelTC/LightX2V) ⭐2.4k, Lightweight X2V inference framework.
+- [LongLive 2.0](https://github.com/NVlabs/LongLive) ⭐2.3k, NVIDIA long-video generation infra, real-time.
+- [Helios](https://github.com/PKU-YuanGroup/Helios) ⭐1.9k, Real-time long video generation.
+- API-only frontier (drive from CLI via muapi-cli / vargHQ sdk / MiniMax-MCP): **Veo 3.x, Kling 2.x, Seedance 2.0**, see [awesome-seedance-prompts](https://github.com/saber007104/awesome-seedance-prompts) for prompt patterns.
 
-## 🧩 ComfyUI Video Ecosystem
+## ComfyUI Video Ecosystem
 
-- [ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) ⭐6.5k — THE Wan node pack (kijai).
-- [ComfyUI-FLOAT](https://github.com/yuvraj108c/ComfyUI-FLOAT) ⭐0.3k — Audio-driven talking portraits.
-- [ComfyUI-WanAnimatePlus](https://github.com/wuwukaka/ComfyUI-WanAnimatePlus) ⭐0.2k — Seamless video connection + multi-reference Wan Animate.
-- [comfyUI-LongLook](https://github.com/shootthesound/comfyUI-LongLook) ⭐0.2k — FreeLong spectral blending for Wan 2.2 long videos.
-- [ComfyUI-Wan-VACE-Video-Joiner](https://github.com/stuttlepress/ComfyUI-Wan-VACE-Video-Joiner) ⭐92 — Smooth transitions between clips from any model.
-- [ComfyUI-Wan-VACE-Prep](https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep) ⭐89 — Common edit tasks with gen models made easy.
-- [ComfyUI-Bernini](https://github.com/AIMixer/ComfyUI-Bernini) ⭐77 — Wan 2.2 Bernini generation + editing.
-- [muapi-comfyui](https://github.com/SamurAIGPT/muapi-comfyui) ⭐51 — Cloud API models inside ComfyUI.
+- [ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) ⭐6.5k, THE Wan node pack (kijai).
+- [ComfyUI-FLOAT](https://github.com/yuvraj108c/ComfyUI-FLOAT) ⭐0.3k, Audio-driven talking portraits.
+- [ComfyUI-WanAnimatePlus](https://github.com/wuwukaka/ComfyUI-WanAnimatePlus) ⭐0.2k, Seamless video connection + multi-reference Wan Animate.
+- [comfyUI-LongLook](https://github.com/shootthesound/comfyUI-LongLook) ⭐0.2k, FreeLong spectral blending for Wan 2.2 long videos.
+- [ComfyUI-Wan-VACE-Video-Joiner](https://github.com/stuttlepress/ComfyUI-Wan-VACE-Video-Joiner) ⭐92, Smooth transitions between clips from any model.
+- [ComfyUI-Wan-VACE-Prep](https://github.com/stuttlepress/ComfyUI-Wan-VACE-Prep) ⭐89, Common edit tasks with gen models made easy.
+- [ComfyUI-Bernini](https://github.com/AIMixer/ComfyUI-Bernini) ⭐77, Wan 2.2 Bernini generation + editing.
+- [muapi-comfyui](https://github.com/SamurAIGPT/muapi-comfyui) ⭐51, Cloud API models inside ComfyUI.
 
-## 💻 Programmatic Video (Code IS the Video)
+## Programmatic Video (Code IS the Video)
 
-- [manim](https://github.com/3b1b/manim) ⭐87.4k — Math/explainer videos from Python.
-- [Remotion](https://github.com/remotion-dev/remotion) — React → video; study [github-unwrapped](https://github.com/remotion-dev/github-unwrapped) ⭐1.3k as a production-grade reference codebase.
-- [moviepy](https://github.com/Zulko/moviepy) ⭐14.7k — Python video editing.
-- [motion-canvas](https://github.com/motion-canvas/motion-canvas) — TypeScript → animated video.
-- [vidgear](https://github.com/abhiTronix/vidgear) ⭐3.7k — High-performance Python video pipeline.
-- [pyJianYingDraft](https://github.com/GuanYixuan/pyJianYingDraft) ⭐3.4k — Generate CapCut/JianYing draft files from Python → fully automated edit pipelines that open in the CapCut UI.
-- [astrofox](https://github.com/astrofox-io/astrofox) ⭐1.9k — Audio → visualizer video.
-- [movis](https://github.com/rezoo/movis) ⭐0.5k — Layer-based video rendering in Python.
-- [moviego](https://github.com/mowshon/moviego) ⭐0.3k — Go toolkit for scripted media composition.
+- [manim](https://github.com/3b1b/manim) ⭐87.4k, Math/explainer videos from Python.
+- [Remotion](https://github.com/remotion-dev/remotion), React → video; study [github-unwrapped](https://github.com/remotion-dev/github-unwrapped) ⭐1.3k as a production-grade reference codebase.
+- [moviepy](https://github.com/Zulko/moviepy) ⭐14.7k, Python video editing.
+- [motion-canvas](https://github.com/motion-canvas/motion-canvas), TypeScript → animated video.
+- [vidgear](https://github.com/abhiTronix/vidgear) ⭐3.7k, High-performance Python video pipeline.
+- [pyJianYingDraft](https://github.com/GuanYixuan/pyJianYingDraft) ⭐3.4k, Generate CapCut/JianYing draft files from Python → fully automated edit pipelines that open in the CapCut UI.
+- [astrofox](https://github.com/astrofox-io/astrofox) ⭐1.9k, Audio → visualizer video.
+- [movis](https://github.com/rezoo/movis) ⭐0.5k, Layer-based video rendering in Python.
+- [moviego](https://github.com/mowshon/moviego) ⭐0.3k, Go toolkit for scripted media composition.
 
-## ✂️ Editors — AI-Augmented, Browser & Classic
+## Editors: AI-Augmented, Browser & Classic
 
-- [LosslessCut](https://github.com/mifi/lossless-cut) ⭐41.2k — Lossless trim/cut, instant.
-- [Shotcut](https://github.com/mltframework/shotcut) ⭐14.2k — Cross-platform FOSS NLE.
-- [Olive](https://github.com/olive-editor/olive) ⭐9.0k — GPU-accelerated NLE.
-- [auto-editor](https://github.com/WyattBlue/auto-editor) ⭐4.4k — Cuts silence automatically.
-- [Kimu](https://github.com/trykimu/videoeditor) ⭐2.1k — "Your creative copilot" — open React video editor.
-- [Clypra](https://github.com/AIEraDev/Clypra) ⭐1.9k — Tauri + React editor rebuilding premium CapCut features for free.
-- [react-video-editor](https://github.com/designcombo/react-video-editor) ⭐1.7k — Remotion-based CapCut/Canva clone.
-- [FreeCut](https://github.com/walterlow/freecut) ⭐1.4k — Professional-grade editing entirely in the browser (mediabunny).
-- [openvid](https://github.com/CristianOlivera1/openvid) ⭐1.4k — Professional demos & mockups in seconds, in-browser.
-- [beutl](https://github.com/b-editor/beutl) ⭐1.2k — Cross-platform compositing (C#).
-- [twick](https://github.com/ncounterspecialist/twick) ⭐0.5k — AI video editor SDK: canvas timeline, drag-and-drop, AI captions.
-- [MasterSelects](https://github.com/Sportinger/MasterSelects) ⭐0.4k — Real-time browser compositor incl. Gaussian splatting.
-- [openvideo](https://github.com/openvideodev/openvideo) ⭐0.3k — Open AI video editor with client-side rendering.
+- [LosslessCut](https://github.com/mifi/lossless-cut) ⭐41.2k, Lossless trim/cut, instant.
+- [Shotcut](https://github.com/mltframework/shotcut) ⭐14.2k, Cross-platform FOSS NLE.
+- [Olive](https://github.com/olive-editor/olive) ⭐9.0k, GPU-accelerated NLE.
+- [auto-editor](https://github.com/WyattBlue/auto-editor) ⭐4.4k, Cuts silence automatically.
+- [Kimu](https://github.com/trykimu/videoeditor) ⭐2.1k, "Your creative copilot", open React video editor.
+- [Clypra](https://github.com/AIEraDev/Clypra) ⭐1.9k, Tauri + React editor rebuilding premium CapCut features for free.
+- [react-video-editor](https://github.com/designcombo/react-video-editor) ⭐1.7k, Remotion-based CapCut/Canva clone.
+- [FreeCut](https://github.com/walterlow/freecut) ⭐1.4k, Professional-grade editing entirely in the browser (mediabunny).
+- [openvid](https://github.com/CristianOlivera1/openvid) ⭐1.4k, Professional demos & mockups in seconds, in-browser.
+- [beutl](https://github.com/b-editor/beutl) ⭐1.2k, Cross-platform compositing (C#).
+- [twick](https://github.com/ncounterspecialist/twick) ⭐0.5k, AI video editor SDK: canvas timeline, drag-and-drop, AI captions.
+- [MasterSelects](https://github.com/Sportinger/MasterSelects) ⭐0.4k, Real-time browser compositor incl. Gaussian splatting.
+- [openvideo](https://github.com/openvideodev/openvideo) ⭐0.3k, Open AI video editor with client-side rendering.
 
-## 🎚️ DaVinci Resolve Stack
+## DaVinci Resolve Stack
 
-- [auto-subs](https://github.com/tmoroney/auto-subs) ⭐3.6k — On-device subtitle generation wired into Resolve, Premiere & After Effects.
-- [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) ⭐1.2k — Resolve Studio as an MCP server (also listed in Agent-Native — it's that important).
-- [StoryToolkitAI](https://github.com/octimot/StoryToolkitAI) ⭐1.0k — Transcribe + semantically search your footage, Resolve-integrated.
-- [CorridorKey-Runtime](https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime) ⭐0.7k — Native AI keying runtime + OFX plugin (built with Corridor Digital), Apple-Silicon native.
-- [awesome-davinci-resolve](https://github.com/Greenysmac/awesome-davinci-resolve) ⭐0.2k — Community plugin radar.
-- [pydavinci](https://github.com/pedrolabonia/pydavinci) ⭐0.2k — Script Resolve from Python.
+- [auto-subs](https://github.com/tmoroney/auto-subs) ⭐3.6k, On-device subtitle generation wired into Resolve, Premiere & After Effects.
+- [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) ⭐1.2k, Resolve Studio as an MCP server (also listed in Agent-Native, it's that important).
+- [StoryToolkitAI](https://github.com/octimot/StoryToolkitAI) ⭐1.0k, Transcribe + semantically search your footage, Resolve-integrated.
+- [CorridorKey-Runtime](https://github.com/alexandremendoncaalvaro/CorridorKey-Runtime) ⭐0.7k, Native AI keying runtime + OFX plugin (built with Corridor Digital), Apple-Silicon native.
+- [awesome-davinci-resolve](https://github.com/Greenysmac/awesome-davinci-resolve) ⭐0.2k, Community plugin radar.
+- [pydavinci](https://github.com/pedrolabonia/pydavinci) ⭐0.2k, Script Resolve from Python.
 
-## 🗣️ Avatars, Talking Heads & Face Tools
+## Avatars, Talking Heads & Face Tools
 
-- [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) ⭐93.6k — Single-image face swap, live.
-- [facefusion](https://github.com/facefusion/facefusion) ⭐28.8k — Industry-leading face manipulation platform.
-- [LivePortrait](https://github.com/KlingAIResearch/LivePortrait) ⭐18.5k — Bring portraits to life.
-- [LiveTalking](https://github.com/lipku/LiveTalking) ⭐8.0k — Real-time interactive streaming digital human.
-- [video-retalking](https://github.com/OpenTalker/video-retalking) ⭐7.3k — Audio-based lip-sync on existing footage.
-- [echomimic_v2](https://github.com/antgroup/echomimic_v2) ⭐4.6k — Audio-driven semi-body human animation (CVPR 2025).
-- [PersonaLive](https://github.com/GVCLab/PersonaLive) ⭐3.3k — Expressive portrait animation for live streaming (CVPR 2026).
-- [fantasy-talking](https://github.com/Fantasy-AMAP/fantasy-talking) ⭐1.6k — Realistic talking portraits via coherent motion synthesis.
-- [TalkingHead](https://github.com/met4citizen/TalkingHead) ⭐1.3k — Real-time 3D avatar lip-sync for the web.
-- [VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) ⭐0.7k — Face swap + editing suite, actively developed.
+- [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) ⭐93.6k, Single-image face swap, live.
+- [facefusion](https://github.com/facefusion/facefusion) ⭐28.8k, Industry-leading face manipulation platform.
+- [LivePortrait](https://github.com/KlingAIResearch/LivePortrait) ⭐18.5k, Bring portraits to life.
+- [LiveTalking](https://github.com/lipku/LiveTalking) ⭐8.0k, Real-time interactive streaming digital human.
+- [video-retalking](https://github.com/OpenTalker/video-retalking) ⭐7.3k, Audio-based lip-sync on existing footage.
+- [echomimic_v2](https://github.com/antgroup/echomimic_v2) ⭐4.6k, Audio-driven semi-body human animation (CVPR 2025).
+- [PersonaLive](https://github.com/GVCLab/PersonaLive) ⭐3.3k, Expressive portrait animation for live streaming (CVPR 2026).
+- [fantasy-talking](https://github.com/Fantasy-AMAP/fantasy-talking) ⭐1.6k, Realistic talking portraits via coherent motion synthesis.
+- [TalkingHead](https://github.com/met4citizen/TalkingHead) ⭐1.3k, Real-time 3D avatar lip-sync for the web.
+- [VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) ⭐0.7k, Face swap + editing suite, actively developed.
 
-## 🔊 Audio, Voice & Music for Video
+## Audio, Voice & Music for Video
 
-- [voice-pro](https://github.com/abus-aikorea/voice-pro) ⭐10.5k — Transcribe / translate / TTS suite.
-- [Amphion](https://github.com/open-mmlab/Amphion) ⭐9.8k — Audio, music & speech generation toolkit.
-- [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) ⭐6.9k — Open-source ElevenLabs alternative: local voice cloning, dubbing, dictation.
-- [ace-step-ui](https://github.com/fspecii/ace-step-ui) ⭐4.1k — Open Suno alternative: pro UI for ACE-Step 1.5 music generation, local & unlimited.
-- [WhisperLive](https://github.com/collabora/WhisperLive) ⭐4.0k — Live transcription.
-- [ffsubsync](https://github.com/smacke/ffsubsync) ⭐7.7k — Auto-sync subtitles to audio.
+- [voice-pro](https://github.com/abus-aikorea/voice-pro) ⭐10.5k, Transcribe / translate / TTS suite.
+- [Amphion](https://github.com/open-mmlab/Amphion) ⭐9.8k, Audio, music & speech generation toolkit.
+- [OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio) ⭐6.9k, Open-source ElevenLabs alternative: local voice cloning, dubbing, dictation.
+- [ace-step-ui](https://github.com/fspecii/ace-step-ui) ⭐4.1k, Open Suno alternative: pro UI for ACE-Step 1.5 music generation, local & unlimited.
+- [WhisperLive](https://github.com/collabora/WhisperLive) ⭐4.0k, Live transcription.
+- [ffsubsync](https://github.com/smacke/ffsubsync) ⭐7.7k, Auto-sync subtitles to audio.
 
-## 🔧 Enhance, Upscale & Finish
+## Enhance, Upscale & Finish
 
-- [Anime4K](https://github.com/bloc97/Anime4K) ⭐21.0k — Real-time upscale shaders.
-- [video2x](https://github.com/k4yt3x/video2x) ⭐20.2k — ML super-resolution + frame interpolation.
-- [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) ⭐16.7k — Video/image upscale + interpolation GUI.
-- [gyroflow](https://github.com/gyroflow/gyroflow) ⭐9.0k — Gyro-based video stabilization (Rust).
-- [backgroundremover](https://github.com/nadermx/backgroundremover) ⭐7.9k — Remove background from video with one CLI command.
-- [FILM](https://github.com/google-research/frame-interpolation) ⭐3.1k — Frame interpolation for large motion (Google).
-- [FrameShift](https://github.com/Gaurox/FrameShift) ⭐66 — Offline media processing: FFmpeg + local AI + right-click workflows.
+- [Anime4K](https://github.com/bloc97/Anime4K) ⭐21.0k, Real-time upscale shaders.
+- [video2x](https://github.com/k4yt3x/video2x) ⭐20.2k, ML super-resolution + frame interpolation.
+- [Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) ⭐16.7k, Video/image upscale + interpolation GUI.
+- [gyroflow](https://github.com/gyroflow/gyroflow) ⭐9.0k, Gyro-based video stabilization (Rust).
+- [backgroundremover](https://github.com/nadermx/backgroundremover) ⭐7.9k, Remove background from video with one CLI command.
+- [FILM](https://github.com/google-research/frame-interpolation) ⭐3.1k, Frame interpolation for large motion (Google).
+- [FrameShift](https://github.com/Gaurox/FrameShift) ⭐66, Offline media processing: FFmpeg + local AI + right-click workflows.
 
-## 🚀 Reference Pipeline: Claude Code as Director
+## Reference Pipeline: Claude Code as Director
 
-A fully agent-driven premium production on a single workstation — no UI clicking until final review:
+A fully agent-driven premium production on a single workstation, no UI clicking until final review:
 
 ```
 1. STORY      Claude Code writes script, hooks, shotlist        → spark-video / hve-spielberg
@@ -191,9 +191,9 @@ A fully agent-driven premium production on a single workstation — no UI clicki
 
 Contributions welcome! Please open a PR:
 
-- One tool per line: `[name](github-url) ⭐stars — what it does, concretely.`
+- One tool per line: `[name](github-url) ⭐stars, what it does, concretely.`
 - Tool must be open source (or have a meaningful free tier + open client) and actively maintained.
-- Agent-native tools (skills/MCP/CLI) get priority — that's this list's edge.
+- Agent-native tools (skills/MCP/CLI) get priority, that's this list's edge.
 - Keep star counts honest; note the harvest date when updating in bulk.
 
 ## License
